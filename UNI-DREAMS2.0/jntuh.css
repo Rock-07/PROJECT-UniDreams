@@ -1,0 +1,54 @@
+*{
+  padding:0px;
+  margin:0px;
+
+}
+.clgHeading{
+  font-size: 2rem;
+  text-align: center;
+  font-weight: bold;
+  
+  margin-top: 25px;
+}
+.box1{
+  height: 650px;
+  width: 750px;
+  border: 2px solid black;
+  margin: 50px;
+  border-color: #fa9898;
+  background-image: url('JNtuh.png');
+  background-size: cover;
+  margin-top: 250px;
+ 
+
+
+}
+p{
+  font-size: 1.9rem;
+}
+.box2{
+  height: 350px;
+  width: 750px;
+  margin: 50px;
+
+}
+.images{
+  display: flex;
+  margin-top: 50px;
+  justify-content: center;
+  align-items: center;
+  height: 450px;
+}
+.content{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.information{
+  height: 350px;
+  width: 750px;
+  border: 2px solid black;
+  margin: 50px;
+  font-size: 1.2rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

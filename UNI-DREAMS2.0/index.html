@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+  integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Uni Dreams
+  </title>
+</head>
+<body>
+  
+  <div class="head">
+    <img src="logo3.0.png" alt="ho">
+   
+   
+  <h1 id="heading"> UniDreams</h1>
+  
+  </div>
+  
+
+  <div class="newmain">
+
+    <span id="navbar">
+      <div class="navbarwithicon">
+        <input type="text" placeholder="enter your rank" id="search">
+      <button onclick="getInput(),filterHide()"id="newtool"> <i class="fa-solid fa-magnifying-glass" class="nobc" ></i></button>
+
+      </span>
+      
+      <button class="newfilter" onclick="openPopup()">
+        FILTER
+      </button>
+     
+    </div>
+
+  
+    <div class="popup" id="popup">
+      <div class="close">
+        <button id="buttonX" onclick="closePopup()">X</button>
+
+      </div>
+      
+      <p id="words">Choose your filter</p>
+      <button onclick="preferencesport()" class="filterwords">SPORTS</button>
+      <button class="filterwords" onclick="preferenceplacement()">PLACEMENT</button>
+      <button class="filterwords" onclick="preferencecampus()">CAMPUS</button>
+    </div>
+  
+  </div>
+  <p id="details">hi</p>
+
+
+
+  
+ 
+
+
+ 
+  
+
+
+  
+
+  
+    
+  
+ <script src="script.js"></script>
+</body>
+</html>

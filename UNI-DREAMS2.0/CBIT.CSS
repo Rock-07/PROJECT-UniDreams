@@ -1,0 +1,54 @@
+*{
+  padding:0px;
+  margin:0px;
+
+}
+.clgHeading{
+  font-size: 2rem;
+  text-align: center;
+  font-weight: bold;
+  
+  margin-top: 25px;
+}
+.box1{
+  height: 450px;
+  width: 750px;
+  border: 2px solid black;
+  margin: 50px;
+  background-image: url('cbitcampus.jpeg');
+  background-size: cover;
+
+}
+p{
+  font-size: 2.2rem;
+}
+.box2{
+  height: 350px;
+  width: 750px;
+  border: 2px solid black;
+  margin: 50px;
+
+}
+.images{
+  display: flex;
+  margin-top: 50px;
+  border:2px solid black;
+  justify-content: center;
+  align-items: center;
+  height: 450px;
+  background-color: #ebe5e5;
+}
+.content{
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #fa9898;
+}
+.information{
+  height: 350px;
+  width: 750px;
+  border: 2px solid black;
+  margin: 50px;
+  font-size: 1.2rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
